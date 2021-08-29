@@ -3,6 +3,11 @@ body, html {
     margin: 0;
     padding: 0;
     background-color: #000;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Header */
@@ -30,8 +35,8 @@ nav {
 
 nav a {
     font-family: "Press Start 2P";
-    text-decoration: none;
     color: #fff;
+    font-size: 1.5rem;
 }
 
 .realms {
@@ -40,10 +45,47 @@ nav a {
     text-align: center;
     color: #fff;
     font-family: "Press Start 2P";
+}
 
+.realms a {
+    color: #fff;
 }
 
 /* Main */
 main {
+    width: 100%;
+}
+
+.splash {
+    /* position: relative; */
+    text-align: center;
+    color: #fff;
+}
+
+.splash img {
+    width: 100%;
+}
+
+.splash-text {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    font-family: "Press Start 2P";
+    font-size: 2rem;
+}
+
+/* Divider */
+.divider {
     background-color: #fff;
+    width: 100%;
+    height: 10px;
+    margin: 50px 0;
+}
+
+/* About */
+#about h1 {
+    color: #fff;
+    font-family: "Press Start 2P";
+    text-align: center;
 }
