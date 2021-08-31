@@ -130,6 +130,28 @@ main {
     font-size: 2rem
 }
 
+/* Gallery */
+#gallery {
+    margin-bottom: 50px;
+}
+
+#gallery h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.gallery-pics {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.gallery-pics img {
+    width: 30%;
+    margin: 25px 0;
+}
+
 /* Contact */
 #contact {
     /* color: #fff; */
