@@ -116,4 +116,39 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.monday, .maybe {
+    color: #fff;
+    width: 32%;
+    text-align: center;
+}
+
+.monday h2, .maybe h2 {
+    font-size: 2rem
+}
+
+/* Contact */
+#contact {
+    /* color: #fff; */
+    text-align: center;
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #fff; */
+}
+
+.contact-content img {
+    height: 100px;
+    width: 100px;
+}
+
+.marco-links, .kyri-links {
+    margin: 10px 0;
 }
