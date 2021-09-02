@@ -154,7 +154,6 @@ main {
 
 /* Contact */
 #contact {
-    /* color: #fff; */
     text-align: center;
     background-color: #fff;
     padding: 50px 0;
@@ -163,14 +162,72 @@ main {
 .contact-content {
     display: flex;
     justify-content: space-around;
-    /* background-color: #fff; */
 }
 
 .contact-content img {
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
 }
 
 .marco-links, .kyri-links {
     margin: 10px 0;
+}
+
+@media only screen and (max-width: 430px) {
+    .logo {
+        width: 0;
+    }
+
+    .logo img {
+        display: none;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        margin: 25px 0;
+    }
+
+    .realms {
+        display: none;
+    }
+
+    #events {
+        position: static;
+    }
+
+    .events-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .events-text {
+        position: static;
+        top: auto;
+        left: auto;
+        transform: none;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .monday, .maybe {
+        width: 100%;
+    }
+
+    .gallery-pics {
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .gallery-pics img {
+        width: 75%;
+        margin: 5px;
+    }
 }
