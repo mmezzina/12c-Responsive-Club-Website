@@ -184,6 +184,12 @@ main {
 
     nav {
         width: 100%;
+
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        margin: 5px;
     }
 
     header {
